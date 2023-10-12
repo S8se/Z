@@ -1,0 +1,7 @@
+x = "weizhangsunyedchang"
+the1 = string.sub(x,1,2)
+the2 = string.sub(x, #x-1,#x)
+number = { "0","1","2","3","4","5","6","7","8","9" }
+symbol = { "&","!","@", "$", "%", "^", "(", ")", "-", "+", "=", "_", "?"}
+gay_random = { the1, the2}
+print(gay_random[math.random(1,2)].. number[math.random(1,10)] .. number[math.random(1,10)].. number[math.random(1,10)].. gay_random[math.random(1,2)].. symbol[math.random(1,13)] .. symbol[math.random(1,13)] .. number[math.random(0,10)])
